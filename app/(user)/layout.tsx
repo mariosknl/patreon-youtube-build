@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "../globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
+import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "Patreon Youtube Clone",
@@ -15,6 +16,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
+        <Header />
         <body>{children}</body>
       </html>
     </ClerkProvider>

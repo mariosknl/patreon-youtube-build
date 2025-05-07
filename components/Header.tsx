@@ -2,8 +2,10 @@ import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { HeartIcon } from "lucide-react";
+import { getSiteSettings } from "@/sanity/lib/siteSettings/getSiteSettings";
 
 async function Header() {
+  const siteSettings = await getSiteSettings();
   return (
     <header className="flex items-center justify-between p-4 border-b border-gray-200">
       {/* Left Side */}

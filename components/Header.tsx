@@ -3,15 +3,30 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { HeartIcon } from "lucide-react";
 import { getSiteSettings } from "@/sanity/lib/siteSettings/getSiteSettings";
+import { urlFor } from "@/sanity/lib/image";
+import Image from "next/image";
 
 async function Header() {
   const siteSettings = await getSiteSettings();
+
   return (
     <header className="flex items-center justify-between p-4 border-b border-gray-200">
       {/* Left Side */}
       <div>
         <Link href="/">
-          <h2>Creator site</h2>
+          {siteSettings?.headerLogo ? (
+            <Image
+              src={urlFor(siteSettings?.headerLogo).url()}
+              alt={siteSettings?.headerLogo?.alt || "Logo"}
+              width={100}
+              height={100}
+              className="w-10 h-10 object-cover rounded-full aspect-square"
+            />
+          ) : (
+            <h1 className="text-xl tracking-widest font-bold uppercase text-gray-400">
+              {siteSettings?.siteTitle}
+            </h1>
+          )}
         </Link>
       </div>
 

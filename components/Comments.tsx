@@ -18,11 +18,11 @@ function Comments({ post }: { post: GetPostQueryResult }) {
   const { user } = useUser();
   const [isCommenting, startTransition] = useTransition();
 
-  const hasEngagementFeature = membershipTier && membershipTier >= tierMap.crew;
+  const hasCommentFeature = membershipTier && membershipTier >= tierMap.crew;
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (!post || !hasEngagementFeature) return;
+    if (!post || !hasCommentFeature) return;
 
     startTransition(async () => {
       const id = post._id;
@@ -52,11 +52,11 @@ function Comments({ post }: { post: GetPostQueryResult }) {
 
           <div className="flex-1">
             <Textarea
-              disabled={!user || !hasEngagementFeature || isCommenting}
+              disabled={!user || !hasCommentFeature || isCommenting}
               placeholder={
                 isCommenting
                   ? "Adding comment..."
-                  : hasEngagementFeature
+                  : hasCommentFeature
                   ? "Write a comment..."
                   : "Upgrade membership to comment"
               }
@@ -80,7 +80,7 @@ function Comments({ post }: { post: GetPostQueryResult }) {
             <div className="flex justify-end mt-2">
               <Button
                 type="submit"
-                disabled={!user || !hasEngagementFeature || isCommenting}
+                disabled={!user || !hasCommentFeature || isCommenting}
                 className="ml-auto"
               >
                 {isCommenting ? (

@@ -59,7 +59,7 @@ function Post({ post }: { post: GetPostsQueryResult[number] }) {
               src={urlFor(post.coverImage).url()}
               alt={post.coverImage.alt || post.title || "Post cover image"}
               fill
-              className="object-contain group-hover:scale-105 transition-all duration-300"
+              className="object-cover group-hover:scale-105 transition-all duration-300"
             />
           </div>
         )}
@@ -71,7 +71,7 @@ function Post({ post }: { post: GetPostsQueryResult[number] }) {
         )}
 
         <div className="p-6">
-          <h2 className="text-xl font-semibold text-gray-900 mb-2">
+          <h2 className="text-xl font-semibold text-gray-900 mb-4 border-b">
             {post.title}
           </h2>
 

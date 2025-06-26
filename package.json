@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^6.19.1",
-    "@icons-pack/react-simple-icons": "^12.7.0",
+    "@icons-pack/react-simple-icons": "^13.0.0",
     "@portabletext/react": "^3.2.1",
     "@radix-ui/react-avatar": "^1.1.9",
     "@radix-ui/react-select": "^2.2.4",

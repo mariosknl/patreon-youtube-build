@@ -20,7 +20,7 @@
     "@sanity/client": "^7.1.0",
     "@sanity/image-url": "^1.1.0",
     "@sanity/vision": "^3.88.0",
-    "@schematichq/schematic-components": "^0.7.13",
+    "@schematichq/schematic-components": "^0.8.0",
     "@schematichq/schematic-react": "^1.2.4",
     "@schematichq/schematic-typescript-node": "^1.1.10",
     "@stripe/react-stripe-js": "^3.7.0",

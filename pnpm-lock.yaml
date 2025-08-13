@@ -76,7 +76,7 @@ importers:
         version: 19.1.1(react@19.1.1)
       react-timeago:
         specifier: ^8.2.0
-        version: 8.2.0(react@19.1.1)
+        version: 8.3.0(react@19.1.1)
       sanity:
         specifier: ^4.0.0
         version: 4.3.0(@emotion/is-prop-valid@1.2.2)(@types/node@22.16.5)(@types/react-dom@19.1.7(@types/react@19.1.10))(@types/react@19.1.10)(immer@10.1.1)(jiti@2.5.1)(lightningcss@1.30.1)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(styled-components@6.1.19(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(typescript@5.8.3)(yaml@2.8.0)
@@ -5412,8 +5412,8 @@ packages:
       '@types/react':
         optional: true
 
-  react-timeago@8.2.0:
-    resolution: {integrity: sha512-RWDlG3Jj+iwv+yNEDweA/Qk1mxE8i/Oc4oW8Irp29ZfBp+eNpqqYPMLPYQJyfRMJcGB8CmWkEGMYhB4fW8eZlQ==}
+  react-timeago@8.3.0:
+    resolution: {integrity: sha512-BeR0hj/5qqTc2+zxzBSQZMky6MmqwOtKseU3CSmcjKR5uXerej2QY34v2d+cdz11PoeVfAdWLX+qjM/UdZkUUg==}
     peerDependencies:
       react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -12412,7 +12412,7 @@ snapshots:
     optionalDependencies:
       '@types/react': 19.1.10
 
-  react-timeago@8.2.0(react@19.1.1):
+  react-timeago@8.3.0(react@19.1.1):
     dependencies:
       react: 19.1.1
 

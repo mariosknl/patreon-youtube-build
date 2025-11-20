@@ -46,7 +46,7 @@ importers:
         version: 1.2.6(react@19.2.0)
       '@schematichq/schematic-typescript-node':
         specifier: ^1.1.10
-        version: 1.2.3
+        version: 1.2.6
       '@stripe/react-stripe-js':
         specifier: ^5.0.0
         version: 5.2.0(@stripe/stripe-js@8.1.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
@@ -2434,8 +2434,8 @@ packages:
     peerDependencies:
       react: '>=18'
 
-  '@schematichq/schematic-typescript-node@1.2.3':
-    resolution: {integrity: sha512-ipaZ0L9ipwfciAguDVkxBFl0rMmiEM36HBIc7jxtsbBDi21Xacw7Z+slmFfBPRqB69p4Pphqu0+zqhbCj5BsKA==}
+  '@schematichq/schematic-typescript-node@1.2.6':
+    resolution: {integrity: sha512-pMW/NnWPjZKPjeBLrJm6jgT9Lcs0Rgne2amAxlBKm12K8No3OG2P4sKSFXrtqCHFKVsy7DMel2rxPdctN61SoQ==}
 
   '@sentry-internal/browser-utils@8.55.0':
     resolution: {integrity: sha512-ROgqtQfpH/82AQIpESPqPQe0UyWywKJsmVIqi3c5Fh+zkds5LUxnssTj3yNd1x+kxaPDVB023jAP+3ibNgeNDw==}
@@ -3935,6 +3935,10 @@ packages:
 
   form-data@4.0.4:
     resolution: {integrity: sha512-KrGhL9Q4zjj0kiUt5OO4Mr/A/jlI2jDYs5eHBpYHPcBEVSiipAvn2Ko2HnPe20rmcuuvMHNdZFp+4IlGTMF0Ow==}
+    engines: {node: '>= 6'}
+
+  form-data@4.0.5:
+    resolution: {integrity: sha512-8RipRLol37bNs2bhoV67fiTEvdTrbMUYcFTiy3+wuuOnUog2QBHCZWXDRijWQfAkhBj2Uf5UnVaiWwA5vdd82w==}
     engines: {node: '>= 6'}
 
   formdata-node@6.0.3:
@@ -9305,9 +9309,9 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@schematichq/schematic-typescript-node@1.2.3':
+  '@schematichq/schematic-typescript-node@1.2.6':
     dependencies:
-      form-data: 4.0.4
+      form-data: 4.0.5
       formdata-node: 6.0.3
       node-fetch: 2.7.0
       qs: 6.14.0
@@ -10992,6 +10996,14 @@ snapshots:
       signal-exit: 4.1.0
 
   form-data@4.0.4:
+    dependencies:
+      asynckit: 0.4.0
+      combined-stream: 1.0.8
+      es-set-tostringtag: 2.1.0
+      hasown: 2.0.2
+      mime-types: 2.1.35
+
+  form-data@4.0.5:
     dependencies:
       asynckit: 0.4.0
       combined-stream: 1.0.8

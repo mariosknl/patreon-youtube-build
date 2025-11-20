@@ -43,7 +43,7 @@ importers:
         version: 2.2.1(@stripe/react-stripe-js@5.2.0(@stripe/stripe-js@8.5.1)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(i18next@25.6.0(typescript@5.9.3))(react-dom@19.2.0(react@19.2.0))(react-i18next@16.1.0(i18next@25.6.0(typescript@5.9.3))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typescript@5.9.3))(react@19.2.0)
       '@schematichq/schematic-react':
         specifier: ^1.2.4
-        version: 1.2.6(react@19.2.0)
+        version: 1.2.9(react@19.2.0)
       '@schematichq/schematic-typescript-node':
         specifier: ^1.1.10
         version: 1.2.6
@@ -2428,11 +2428,11 @@ packages:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
-  '@schematichq/schematic-js@1.2.6':
-    resolution: {integrity: sha512-7eu48yi5/Nd6J1wupk8X3Rj2pQ5J83Kb0AOW0hshRLSZgWgo/D3snjP/iK9mDGiwI1TblDj97nS/AxQCDWA11Q==}
+  '@schematichq/schematic-js@1.2.9':
+    resolution: {integrity: sha512-j1thekXKc9SBILJEyq3hSgjEU+fCnR2rFarKLbTSzK0EE9vmpxwriCP1ZlkggNUlG+K9xqQnWiJ7cEzLT4pBqQ==}
 
-  '@schematichq/schematic-react@1.2.6':
-    resolution: {integrity: sha512-/zHpeP/FRMKORyUh/wv5HtowGWRUay0+VuVm2nCYHB63PaB4AM4spQcvwZRX9pmUyNgrD159GqDRIq+gGdR9/A==}
+  '@schematichq/schematic-react@1.2.9':
+    resolution: {integrity: sha512-gh+1S/yJYFQuAUQfQ8u2sztgCHvPJpC2KKcSWb6eHysZBf4Rj279oJkn+00jSm2FwyFQ0TgosgiE3W0KfzQGIg==}
     peerDependencies:
       react: '>=18'
 
@@ -9296,16 +9296,16 @@ snapshots:
       react-dom: 19.2.0(react@19.2.0)
       styled-components: 6.1.19(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
 
-  '@schematichq/schematic-js@1.2.6':
+  '@schematichq/schematic-js@1.2.9':
     dependencies:
       cross-fetch: 4.1.0
       uuid: 13.0.0
     transitivePeerDependencies:
       - encoding
 
-  '@schematichq/schematic-react@1.2.6(react@19.2.0)':
+  '@schematichq/schematic-react@1.2.9(react@19.2.0)':
     dependencies:
-      '@schematichq/schematic-js': 1.2.6
+      '@schematichq/schematic-js': 1.2.9
       react: 19.2.0
     transitivePeerDependencies:
       - encoding

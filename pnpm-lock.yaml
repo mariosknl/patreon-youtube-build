@@ -46,7 +46,7 @@ importers:
         version: 1.2.21(react@19.2.4)
       '@schematichq/schematic-typescript-node':
         specifier: ^1.1.10
-        version: 1.4.2
+        version: 1.4.4
       '@stripe/react-stripe-js':
         specifier: ^5.0.0
         version: 5.6.1(@stripe/stripe-js@8.9.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -2744,8 +2744,8 @@ packages:
     peerDependencies:
       react: '>=18'
 
-  '@schematichq/schematic-typescript-node@1.4.2':
-    resolution: {integrity: sha512-0ItXEcoVlxxU9dctVA2y/rALDhqlol0qpzhrzCfNES77da5thIW1F389tugicoh7RNC88/u8yG3+jTb0B3BXUg==}
+  '@schematichq/schematic-typescript-node@1.4.4':
+    resolution: {integrity: sha512-ncjLtpQoGd0OOKzd8d5rsE4MhE5kS7OKxnQnU5PWLZIeacz0gt/wqcDyUTw8zFtC6PUTo5FY6ib42lYQSKRjBw==}
     engines: {node: '>=18.0.0'}
 
   '@sec-ant/readable-stream@0.4.1':
@@ -6591,18 +6591,6 @@ packages:
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
-  ws@8.19.0:
-    resolution: {integrity: sha512-blAT2mjOEIi0ZzruJfIhb3nps74PRWTCz1IjglWEEpQl5XS/UNama6u2/rjFkDDouqr4L67ry+1aGIALViWjDg==}
-    engines: {node: '>=10.0.0'}
-    peerDependencies:
-      bufferutil: ^4.0.1
-      utf-8-validate: '>=5.0.2'
-    peerDependenciesMeta:
-      bufferutil:
-        optional: true
-      utf-8-validate:
-        optional: true
-
   ws@8.20.0:
     resolution: {integrity: sha512-sAt8BhgNbzCtgGbt2OxmpuryO63ZoDk/sqaB/znQm94T4fCEsy/yV+7CdC1kJhOU9lboAEU7R3kquuycDoibVA==}
     engines: {node: '>=10.0.0'}
@@ -9687,14 +9675,14 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@schematichq/schematic-typescript-node@1.4.2':
+  '@schematichq/schematic-typescript-node@1.4.4':
     dependencies:
       '@types/ws': 8.18.1
       form-data: 4.0.5
       formdata-node: 6.0.3
       node-fetch: 2.7.0
       readable-stream: 4.7.0
-      ws: 8.19.0
+      ws: 8.20.0
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -13945,8 +13933,6 @@ snapshots:
       strip-ansi: 7.2.0
 
   wrappy@1.0.2: {}
-
-  ws@8.19.0: {}
 
   ws@8.20.0: {}
 

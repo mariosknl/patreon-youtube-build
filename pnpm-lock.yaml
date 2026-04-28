@@ -40,7 +40,7 @@ importers:
         version: 5.22.0(@babel/runtime@7.29.2)(@codemirror/lint@6.9.5)(@codemirror/theme-one-dark@6.1.3)(@emotion/is-prop-valid@1.4.0)(codemirror@6.0.2)(react-dom@19.2.4(react@19.2.4))(react-is@19.2.5)(react@19.2.4)(sanity@5.22.0(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.0.1)(@oclif/core@4.10.5)(@sanity/cli-core@1.3.1(@noble/hashes@2.0.1)(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(yaml@2.8.3))(@types/node@24.12.2)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(jiti@2.6.1)(lightningcss@1.32.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(styled-components@6.4.1(css-to-react-native@3.2.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(ts-toolbelt@9.6.0)(typescript@6.0.3))(styled-components@6.4.1(css-to-react-native@3.2.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))
       '@schematichq/schematic-components':
         specifier: ^2.0.0
-        version: 2.10.0(@stripe/react-stripe-js@6.2.0(@stripe/stripe-js@9.3.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(css-to-react-native@3.2.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@6.0.3)
+        version: 2.10.0(@stripe/react-stripe-js@6.3.0(@stripe/stripe-js@9.3.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(css-to-react-native@3.2.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@6.0.3)
       '@schematichq/schematic-react':
         specifier: ^1.2.4
         version: 1.4.1(react@19.2.4)
@@ -49,7 +49,7 @@ importers:
         version: 1.4.6
       '@stripe/react-stripe-js':
         specifier: ^6.0.0
-        version: 6.2.0(@stripe/stripe-js@9.3.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.0(@stripe/stripe-js@9.3.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -2784,10 +2784,10 @@ packages:
   '@stablelib/base64@1.0.1':
     resolution: {integrity: sha512-1bnPQqSxSuc3Ii6MhBysoWCg58j97aUjuCSZrGSmDxNqtytIi0k8utUenAwTZN4V5mXXYGsVUI9zeBqy+jBOSQ==}
 
-  '@stripe/react-stripe-js@6.2.0':
-    resolution: {integrity: sha512-GSCErjljZEQv9LaxP30xGOwstcMyyUzb5JyihXwvjOU95yrfhbiPG4K2KkwxYxn+WY0/AyHsRhPPoGRw7urBzg==}
+  '@stripe/react-stripe-js@6.3.0':
+    resolution: {integrity: sha512-N1FTRNCMKySElDz1lAsf/m6Oy5vcl6LRVXcW29t0Y3U3HYOAqCBlk6nuDsR2x7SAuaXkVCjnpCqrNbA/7l74jg==}
     peerDependencies:
-      '@stripe/stripe-js': '>=9.2.0 <10.0.0'
+      '@stripe/stripe-js': '>=9.3.1 <10.0.0'
       react: '>=16.8.0 <20.0.0'
       react-dom: '>=16.8.0 <20.0.0'
 
@@ -9560,10 +9560,10 @@ snapshots:
 
   '@sanity/worker-channels@2.0.0': {}
 
-  '@schematichq/schematic-components@2.10.0(@stripe/react-stripe-js@6.2.0(@stripe/stripe-js@9.3.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(css-to-react-native@3.2.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@6.0.3)':
+  '@schematichq/schematic-components@2.10.0(@stripe/react-stripe-js@6.3.0(@stripe/stripe-js@9.3.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(css-to-react-native@3.2.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@6.0.3)':
     dependencies:
       '@schematichq/schematic-icons': 0.5.4(css-to-react-native@3.2.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      '@stripe/react-stripe-js': 6.2.0(@stripe/stripe-js@9.3.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      '@stripe/react-stripe-js': 6.3.0(@stripe/stripe-js@9.3.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@stripe/stripe-js': 9.3.1
       i18next: 26.0.8(typescript@6.0.3)
       lodash: 4.18.1
@@ -9645,7 +9645,7 @@ snapshots:
 
   '@stablelib/base64@1.0.1': {}
 
-  '@stripe/react-stripe-js@6.2.0(@stripe/stripe-js@9.3.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@stripe/react-stripe-js@6.3.0(@stripe/stripe-js@9.3.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
       '@stripe/stripe-js': 9.3.1
       prop-types: 15.8.1

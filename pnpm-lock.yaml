@@ -40,7 +40,7 @@ importers:
         version: 5.22.0(@babel/runtime@7.29.2)(@codemirror/lint@6.9.5)(@codemirror/theme-one-dark@6.1.3)(@emotion/is-prop-valid@1.4.0)(codemirror@6.0.2)(react-dom@19.2.4(react@19.2.4))(react-is@19.2.5)(react@19.2.4)(sanity@5.22.0(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.0.1)(@oclif/core@4.10.5)(@sanity/cli-core@1.3.1(@noble/hashes@2.0.1)(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(yaml@2.8.3))(@types/node@24.12.2)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(jiti@2.6.1)(lightningcss@1.32.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(styled-components@6.4.1(css-to-react-native@3.2.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(ts-toolbelt@9.6.0)(typescript@6.0.3))(styled-components@6.4.1(css-to-react-native@3.2.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))
       '@schematichq/schematic-components':
         specifier: ^2.0.0
-        version: 2.10.0(@stripe/react-stripe-js@6.3.0(@stripe/stripe-js@9.3.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(css-to-react-native@3.2.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@6.0.3)
+        version: 2.10.1(@stripe/react-stripe-js@6.2.0(@stripe/stripe-js@9.3.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(css-to-react-native@3.2.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@6.0.3)
       '@schematichq/schematic-react':
         specifier: ^1.2.4
         version: 1.4.1(react@19.2.4)
@@ -64,7 +64,7 @@ importers:
         version: 15.5.14(@babel/core@7.29.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       next-sanity:
         specifier: ^12.0.0
-        version: 12.3.0(@emotion/is-prop-valid@1.4.0)(@sanity/client@7.22.0)(@sanity/types@5.22.0(@types/react@19.2.14))(next@15.5.14(@babel/core@7.29.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react-is@19.2.5)(react@19.2.4)(sanity@5.22.0(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.0.1)(@oclif/core@4.10.5)(@sanity/cli-core@1.3.1(@noble/hashes@2.0.1)(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(yaml@2.8.3))(@types/node@24.12.2)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(jiti@2.6.1)(lightningcss@1.32.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(styled-components@6.4.1(css-to-react-native@3.2.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(ts-toolbelt@9.6.0)(typescript@6.0.3))(styled-components@6.4.1(css-to-react-native@3.2.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(typescript@6.0.3)
+        version: 12.3.1(@emotion/is-prop-valid@1.4.0)(@sanity/client@7.22.0)(@sanity/types@5.22.0(@types/react@19.2.14))(next@15.5.14(@babel/core@7.29.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react-is@19.2.5)(react@19.2.4)(sanity@5.22.0(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.0.1)(@oclif/core@4.10.5)(@sanity/cli-core@1.3.1(@noble/hashes@2.0.1)(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(yaml@2.8.3))(@types/node@24.12.2)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(jiti@2.6.1)(lightningcss@1.32.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(styled-components@6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(ts-toolbelt@9.6.0)(typescript@6.0.3))(styled-components@6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(typescript@6.0.3)
       next-themes:
         specifier: ^0.4.6
         version: 0.4.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -2722,8 +2722,8 @@ packages:
     resolution: {integrity: sha512-mC+8yPQuw2rHXdHigFPU9thNa6vTaPmh7jFR6RvloE8s+6dmnk9bHdPXRbrrUqafxzK3L9aH2E170ubXyxcAIA==}
     engines: {node: '>=20.19.1 <22 || >=22.12'}
 
-  '@schematichq/schematic-components@2.10.0':
-    resolution: {integrity: sha512-ousKEiBYw2lwxHZ+6cGozIKF0/8Ab+reKxVGwZiemC9weZ/xnQllENdMAFBoCOuqJYDAKJAccSey4hBneY+BTg==}
+  '@schematichq/schematic-components@2.10.1':
+    resolution: {integrity: sha512-wVo+YxMbVqk2XEozTs8NZWguCgiUepQ7AHnrb82DimEAci9wPUjIZZFn8efAXrVxO/7zCL8m0hbXZ+KYq9/AKw==}
     peerDependencies:
       '@stripe/react-stripe-js': '>=3'
       react: '>=18'
@@ -5118,15 +5118,15 @@ packages:
   natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
 
-  next-sanity@12.3.0:
-    resolution: {integrity: sha512-sL13/ugOQGcOwDk35kS65g6gaI45FiHAsKMvtJn33E5XCbvAXbmi44vhzSoG1SpcuCUtGKos58Ru8nydm69wfw==}
+  next-sanity@12.3.1:
+    resolution: {integrity: sha512-7crFndsx0rcqV8hmJQZPAR7SuFySztdhyqYVb9JKtSKvDi8btjtVaV+jDIK43zVEkcKF7ub7wY6NwVnaE3VQUw==}
     engines: {node: '>=20.19 <22 || >=22.12'}
     peerDependencies:
-      '@sanity/client': ^7.21.0
+      '@sanity/client': ^7.22.0
       next: ^16.0.0-0
       react: ^19.2.3
       react-dom: ^19.2.3
-      sanity: ^5.20.0
+      sanity: ^5.22.0
       styled-components: ^6.1
 
   next-themes@0.4.6:
@@ -5427,6 +5427,10 @@ packages:
 
   postcss@8.5.10:
     resolution: {integrity: sha512-pMMHxBOZKFU6HgAZ4eyGnwXF/EvPGGqUr0MnZ5+99485wwW41kW91A4LOGxSHhgugZmSChL5AlElNdwlNgcnLQ==}
+    engines: {node: ^10 || ^12 || >=14}
+
+  postcss@8.5.12:
+    resolution: {integrity: sha512-W62t/Se6rA0Az3DfCL0AqJwXuKwBeYg6nOaIgzP+xZ7N5BFCI7DYi1qs6ygUYT6rvfi6t9k65UMLJC+PHZpDAA==}
     engines: {node: ^10 || ^12 || >=14}
 
   powershell-utils@0.1.0:
@@ -6382,6 +6386,10 @@ packages:
     resolution: {integrity: sha512-XQegIaBTVUjSHliKqcnFqYypAd4S+WCYt5NIeRs6w/UAry7z8Y9j5ZwRRL4kzq9U3sD6v+85er9FvkEaBpji2w==}
     hasBin: true
 
+  uuid@14.0.0:
+    resolution: {integrity: sha512-Qo+uWgilfSmAhXCMav1uYFynlQO7fMFiMVZsQqZRMIXp0O7rR7qjkj+cPvBHLgBqi960QCoo/PH2/6ZtVqKvrg==}
+    hasBin: true
+
   uuid@8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
     hasBin: true
@@ -6589,6 +6597,9 @@ packages:
 
   xstate@5.30.0:
     resolution: {integrity: sha512-mIzIuMjtYVkqXq9dUzYQoag7b/dF1CBS/yhliuPLfR0FwKPC18HiUivb/crcqY2gknhR8gJEhnppLg6ubQ0gGw==}
+
+  xstate@5.31.0:
+    resolution: {integrity: sha512-5B+0DqC0uNUrcLUEY3pn3iNy+swvK2E0ZpYp5gnV3oxMX5y87vzXkU5YXv9CAtyG5c5FOJ1SzvTWHrwE8fMZNQ==}
 
   xtend@4.0.2:
     resolution: {integrity: sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==}
@@ -9151,7 +9162,7 @@ snapshots:
     dependencies:
       rxjs: 7.8.2
       uuid: 13.0.0
-      xstate: 5.30.0
+      xstate: 5.31.0
 
   '@sanity/descriptors@1.3.0':
     dependencies:
@@ -9295,6 +9306,19 @@ snapshots:
       rxjs: 7.8.2
     optionalDependencies:
       xstate: 5.30.0
+
+  '@sanity/mutate@0.16.1(xstate@5.31.0)':
+    dependencies:
+      '@sanity/client': 7.22.0
+      '@sanity/diff-match-patch': 3.2.0
+      '@sanity/uuid': 3.0.2
+      hotscript: 1.0.13
+      lodash: 4.18.1
+      mendoza: 3.0.8
+      nanoid: 5.1.9
+      rxjs: 7.8.2
+    optionalDependencies:
+      xstate: 5.31.0
 
   '@sanity/mutator@5.22.0(@types/react@19.2.14)':
     dependencies:
@@ -9533,8 +9557,8 @@ snapshots:
     dependencies:
       '@sanity/comlink': 4.0.1
       '@sanity/icons': 3.7.4(react@19.2.4)
-      '@sanity/insert-menu': 3.0.5(@emotion/is-prop-valid@1.4.0)(@sanity/types@5.22.0(@types/react@19.2.14))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(styled-components@6.4.1(css-to-react-native@3.2.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))
-      '@sanity/mutate': 0.16.1(xstate@5.30.0)
+      '@sanity/insert-menu': 3.0.5(@emotion/is-prop-valid@1.4.0)(@sanity/types@5.22.0(@types/react@19.2.14))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(styled-components@6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4))
+      '@sanity/mutate': 0.16.1(xstate@5.31.0)
       '@sanity/presentation-comlink': 2.0.1(@sanity/client@7.22.0)(@sanity/types@5.22.0(@types/react@19.2.14))
       '@sanity/preview-url-secret': 4.0.5(@sanity/client@7.22.0)
       '@sanity/ui': 3.1.14(@emotion/is-prop-valid@1.4.0)(react-dom@19.2.4(react@19.2.4))(react-is@19.2.5)(react@19.2.4)(styled-components@6.4.1(css-to-react-native@3.2.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))
@@ -9545,8 +9569,8 @@ snapshots:
       react-dom: 19.2.4(react@19.2.4)
       rxjs: 7.8.2
       scroll-into-view-if-needed: 3.1.0
-      styled-components: 6.4.1(css-to-react-native@3.2.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      xstate: 5.30.0
+      styled-components: 6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      xstate: 5.31.0
     optionalDependencies:
       '@sanity/client': 7.22.0
       next: 15.5.14(@babel/core@7.29.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -9560,7 +9584,7 @@ snapshots:
 
   '@sanity/worker-channels@2.0.0': {}
 
-  '@schematichq/schematic-components@2.10.0(@stripe/react-stripe-js@6.3.0(@stripe/stripe-js@9.3.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(css-to-react-native@3.2.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@6.0.3)':
+  '@schematichq/schematic-components@2.10.1(@stripe/react-stripe-js@6.2.0(@stripe/stripe-js@9.3.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(css-to-react-native@3.2.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@6.0.3)':
     dependencies:
       '@schematichq/schematic-icons': 0.5.4(css-to-react-native@3.2.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@stripe/react-stripe-js': 6.3.0(@stripe/stripe-js@9.3.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -9572,7 +9596,7 @@ snapshots:
       react-dom: 19.2.4(react@19.2.4)
       react-i18next: 16.1.6(i18next@26.0.8(typescript@6.0.3))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@6.0.3)
       styled-components: 6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      uuid: 13.0.0
+      uuid: 14.0.0
     transitivePeerDependencies:
       - css-to-react-native
       - react-native
@@ -12079,7 +12103,7 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next-sanity@12.3.0(@emotion/is-prop-valid@1.4.0)(@sanity/client@7.22.0)(@sanity/types@5.22.0(@types/react@19.2.14))(next@15.5.14(@babel/core@7.29.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react-is@19.2.5)(react@19.2.4)(sanity@5.22.0(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.0.1)(@oclif/core@4.10.5)(@sanity/cli-core@1.3.1(@noble/hashes@2.0.1)(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(yaml@2.8.3))(@types/node@24.12.2)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(jiti@2.6.1)(lightningcss@1.32.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(styled-components@6.4.1(css-to-react-native@3.2.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(ts-toolbelt@9.6.0)(typescript@6.0.3))(styled-components@6.4.1(css-to-react-native@3.2.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(typescript@6.0.3):
+  next-sanity@12.3.1(@emotion/is-prop-valid@1.4.0)(@sanity/client@7.22.0)(@sanity/types@5.22.0(@types/react@19.2.14))(next@15.5.14(@babel/core@7.29.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react-is@19.2.5)(react@19.2.4)(sanity@5.22.0(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.0.1)(@oclif/core@4.10.5)(@sanity/cli-core@1.3.1(@noble/hashes@2.0.1)(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(yaml@2.8.3))(@types/node@24.12.2)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(jiti@2.6.1)(lightningcss@1.32.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(styled-components@6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(ts-toolbelt@9.6.0)(typescript@6.0.3))(styled-components@6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(typescript@6.0.3):
     dependencies:
       '@portabletext/react': 6.0.3(react@19.2.4)
       '@sanity/client': 7.22.0
@@ -12420,6 +12444,12 @@ snapshots:
       source-map-js: 1.2.1
 
   postcss@8.5.10:
+    dependencies:
+      nanoid: 3.3.11
+      picocolors: 1.1.1
+      source-map-js: 1.2.1
+
+  postcss@8.5.12:
     dependencies:
       nanoid: 3.3.11
       picocolors: 1.1.1
@@ -13619,6 +13649,8 @@ snapshots:
 
   uuid@13.0.0: {}
 
+  uuid@14.0.0: {}
+
   uuid@8.3.2: {}
 
   uuidv7@0.4.4: {}
@@ -13667,7 +13699,7 @@ snapshots:
       esbuild: 0.27.7
       fdir: 6.5.0(picomatch@4.0.4)
       picomatch: 4.0.4
-      postcss: 8.5.10
+      postcss: 8.5.12
       rollup: 4.60.2
       tinyglobby: 0.2.16
     optionalDependencies:
@@ -13819,6 +13851,8 @@ snapshots:
   xmlchars@2.2.0: {}
 
   xstate@5.30.0: {}
+
+  xstate@5.31.0: {}
 
   xtend@4.0.2: {}
 

@@ -17,6 +17,7 @@ export async function getPosts(tier?: string) {
     const { data } = await sanityFetch({
       query: getPostsQueryWithTier,
       params: { tier },
+      stega: false,
     });
 
     return data;
@@ -24,6 +25,7 @@ export async function getPosts(tier?: string) {
 
   const { data } = await sanityFetch({
     query: getPostsQuery,
+    stega: false,
   });
 
   return data;

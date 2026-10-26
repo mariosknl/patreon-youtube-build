@@ -1,0 +1,6 @@
+# pnpm 10 skips dependency build scripts unless they are listed here.
+# esbuild (Sanity), sharp (Next image), and unrs-resolver (ESLint) need theirs.
+allowBuilds:
+  esbuild: true
+  sharp: true
+  unrs-resolver: true

@@ -1,29 +1,37 @@
-name: Build and Test
+name: CI
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
 
 jobs:
-  build_and_test:
-    runs-on: "macOS-latest"
-
-    strategy:
-      matrix:
-        node: [14]
-
+  install:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v7
-      - name: Use Node.js ${{ matrix.node-version }}
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v6
+
+      - name: Setup Node.js
         uses: actions/setup-node@v7
         with:
-          node-version: ${{ matrix.node-version }}
-      - name: Install project
-        run: npm install
-      - name: Build the project
-        run: npm run build --if-present
-      - name: Run tests
-        run: npm test
+          node-version: 24
+          cache: pnpm
+
+      # The previous workflow never ran: it targeted `master`, used Node 14
+      # and npm, and called `npm test` with no test script. This job is the
+      # check Renovate was failing (a lockfile that does not match package.json).
+      #
+      # Lint and build are not part of CI yet. With the ranges already in
+      # package.json they fail during compile, before env vars are read:
+      # - `pnpm lint` — eslint-config-next@15 only accepts ESLint 7–9; the repo
+      #   depends on ESLint 10. eslint-config-next@16 (open PR #272) accepts it.
+      # - `pnpm build` — next-sanity@13 moved `defineLive` to `next-sanity/live`,
+      #   and sanity@5.31 imports `useEffectEvent`, which Next 15.5's bundled
+      #   React does not export. That needs the Next 16 upgrade, not dummy keys.
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile

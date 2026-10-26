@@ -12,6 +12,11 @@ export const metadata: Metadata = {
   description: "Patreon Youtube Clone",
 };
 
+// Header, home, and pricing read Sanity and Clerk during render. Those calls
+// need the real project, so the segment is rendered per request instead of
+// prerendered at build time.
+export const dynamic = "force-dynamic";
+
 export default function RootLayout({
   children,
 }: Readonly<{

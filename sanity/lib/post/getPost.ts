@@ -10,6 +10,7 @@ export async function getPost(id: string) {
   const { data } = await sanityFetch({
     query: getPostQuery,
     params: { id },
+    stega: false,
   });
 
   return data;

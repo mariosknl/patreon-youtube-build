@@ -46,7 +46,7 @@ importers:
         version: 1.19.0(react@19.3.1)
       '@schematichq/schematic-typescript-node':
         specifier: ^1.1.10
-        version: 1.6.11
+        version: 1.6.12
       '@stripe/react-stripe-js':
         specifier: ^6.0.0
         version: 6.12.0(@stripe/stripe-js@9.13.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
@@ -2874,8 +2874,8 @@ packages:
     peerDependencies:
       react: '>=18'
 
-  '@schematichq/schematic-typescript-node@1.6.11':
-    resolution: {integrity: sha512-R9v42wgUGtx3TX6O3AA9ZFaG9/Swosy5Susr7IcnNjGDK4XC9e9VXFJgLycGNQKPuiMEy8Fnab+tp3k4vjnbKw==}
+  '@schematichq/schematic-typescript-node@1.6.12':
+    resolution: {integrity: sha512-lh+Sos+3vVmc/9qUnnzGc5rBKjUX6cDD5KbcRIKuEVATmoLs+NGVqoZAX5qpY3s/jLacqu+jaNPJ6iayjDcJEA==}
     engines: {node: '>=18.0.0'}
 
   '@sec-ant/readable-stream@0.4.1':
@@ -10113,7 +10113,7 @@ snapshots:
     dependencies:
       react: 19.3.1
 
-  '@schematichq/schematic-typescript-node@1.6.11':
+  '@schematichq/schematic-typescript-node@1.6.12':
     dependencies:
       form-data: 4.0.6
       form-data-encoder: 4.1.0
